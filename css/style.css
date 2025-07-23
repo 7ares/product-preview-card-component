@@ -12,7 +12,7 @@
   --WHITE: hsl(0, 0%, 100%);
   --BLACK: hsl(212, 21%, 14%);
 
-  --M-BOTTOM: 2rem;
+  --M-BOTTOM: 1.5rem;
 }
 h1 span {
   display: block;
@@ -29,7 +29,7 @@ h1 span {
   display: flex;
   flex-direction: row;
   max-width: 800px;
-  min-height: 450px;
+  max-height: 500px;
   overflow: hidden;
   background-color: var(--WHITE);
   border-radius: 0.8rem;
@@ -118,6 +118,8 @@ h1 span {
   .perfume {
     flex-direction: column;
     max-width: 90%;
+    max-height: none;
+    height: auto;
   }
 
   .perfume figure,
@@ -134,7 +136,7 @@ h1 span {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     object-fit: cover;
-    object-position: top center;
+    object-position: center;
   }
 
   h1 span {
